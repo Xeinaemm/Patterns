@@ -1,0 +1,8 @@
+﻿Prototype:
+- Interface or abstract class
+- Defines a method to clone an object
+
+Concrete Prototype:
+- An class implementing the prototype
+- Basically has a way to copy itself
+- Deep or shallow copy

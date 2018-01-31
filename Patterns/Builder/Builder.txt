@@ -1,0 +1,17 @@
+﻿Builder separates the constuction of a object from its representation so that same
+	construction can create another representation.
+
+Director:
+- Knows how to build concrete builder
+- Client calls him directly
+
+Builder:
+- Interface or abstract class
+- Defines steps
+- Holds instance of Product
+
+Concrete builder:
+- Provides an implementation for interface defined by the builder
+
+Product:
+- This same type but different data.

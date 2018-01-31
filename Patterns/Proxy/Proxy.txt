@@ -1,0 +1,11 @@
+﻿- Provide a surrogate or placeholder for another objects to control access to it
+- Also known as surrogate
+- A remote proxy acts as a local representative of a remote object, and abstracts
+	away the details of communicating with the remote object
+- A virtual proxy creates expensive objects on demand.
+- A protection proxy can be used to control access to an object, based on
+	authorization rules.
+
+Related Patterns:
+- Adapter
+- Decorator

@@ -1,0 +1,5 @@
+﻿- Provides a centralized location for communication between many instances of like
+	classes
+- Hides all coordination between colleagues
+- Decoupled colleagues
+- Can become very large and very complicated as more colleagues are handled

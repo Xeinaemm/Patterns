@@ -1,0 +1,9 @@
+﻿- A specification defines a method or predicate that matches qualifying objects
+- Separate the specification of the work from performing the work itself
+- Is generally used for validation, filtering, or build-toorder scenarios
+
+
+Predicates:
+- Rules that evaluate to a Boolean can be modeled as predicats
+- Rules can use Func<T,bool> or Expression<Func<T,bool>>
+- Work best for simple, small conditions.

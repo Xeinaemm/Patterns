@@ -1,0 +1,13 @@
+﻿- Add functionality to existing objects dynamically e.g. controls
+- Can be used on legacy systems or sealed classes.
+- The original objects is unaware of any decorations.
+- The decorations can be composed together in a mix-and-match fashion
+- Can increase complexity of code.
+
+Related Patterns:
+- Adapter
+- Bridge
+- Composite
+- Facade
+- Flyweight
+- Proxy

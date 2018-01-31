@@ -1,0 +1,2 @@
+﻿- Used to treat individual objects as one representation(group of objects)
+- Can be used on group, collections, tress, and distribution.

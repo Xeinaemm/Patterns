@@ -1,0 +1,10 @@
+﻿- Reduces storage costs for large number of objects
+- Share objects to be used in multiple contexts simultaneusly
+- Retain object oriented granularity and flexibility
+- Group of objects are replaced by few shared objects once extrinsic state is removed
+- Application can no longer depend on object's identity.
+
+Related Patterns:
+- Composite
+- State
+- Strategy

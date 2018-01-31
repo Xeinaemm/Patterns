@@ -1,0 +1,10 @@
+﻿- Reduce coupling between publishers and subscribers
+- Reduce friction for introducing new events
+- Reduce memory management issues related to eventing
+- Publishers and Subscribers each hold a reference to the aggregator
+- Publishers call publication methods to notify subscribers
+- Subscribers call subscription methods to receive notifications
+
+Related Patterns:
+- Observer
+- Publish/Subscribe

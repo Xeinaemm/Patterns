@@ -1,0 +1,11 @@
+﻿- Rid program logic of null checks where possible
+- Provide a non-functional object in place of a null reference
+- Allow methods to be called on Null objects, unlike a null reference
+- When handling of null should be abstracted from the client
+- Also called stub, active nothing, active null
+- Callers don't need to care whether the have a NullObject or a RealObject
+
+Related Patterns:
+- Singleton
+- Strategy
+- Command

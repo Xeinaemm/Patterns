@@ -1,0 +1,5 @@
+﻿- Encapsulate a family of related algorithms
+- Let the algorithm vary and evolve separate from the class using it
+- Allow a class to maintain a single purpose
+- Separate the calculation from the delivery of its results
+- Strategies may be mocked when testing the Context class

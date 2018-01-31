@@ -1,0 +1,19 @@
+﻿- Separate object creation from the decision of which object to create
+- Not breaking OCP
+- Store which object to create outside of the program
+
+Factory method:
+- Adds an interface to the factory itself from simple Factory
+- Defers object creation to multiple factories that share an interface
+- Derived classes implement or override the factory method of the base
+- Eliminate references to concrete classes
+- Factories can be inherited to provide even more specialized object creation
+- Rules of object initialization is centralized
+- May need to create a factory just to get a concrete class delivered
+- The inheritance hierarchy gets deeper with coupling between concrete factories
+	and created classes
+
+Abstract Factory:
+- Factories create different types of concrete objects
+- A factory now represents a group of objects that it can create
+- Factories may have more than one factory method

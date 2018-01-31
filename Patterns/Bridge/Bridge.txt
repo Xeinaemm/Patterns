@@ -1,0 +1,2 @@
+﻿Bridge split code into interfaces and his implementations so the two can vary 
+	independently and use implementation base on needs.

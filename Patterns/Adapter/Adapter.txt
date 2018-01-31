@@ -1,0 +1,10 @@
+﻿Adapter (also know as Wrapper) is used to wrap a needed class or his interface 
+	into another interface that clients expected.
+
+Consequences:
+- A single adapter interface may work with many Adaptees
+
+Related Patterns:
+- Repository
+- Strategy
+- Facade

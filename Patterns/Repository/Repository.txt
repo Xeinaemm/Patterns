@@ -1,0 +1,7 @@
+﻿- Separate business code from data access
+
+Related Patterns:
+- Unity of Work
+- Specification
+- Identity Map
+- Decorator

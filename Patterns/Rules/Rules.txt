@@ -1,0 +1,8 @@
+﻿- Separate individual rules from rules processing logic
+- Allow new rules to be added without the need for changes in the rest of the system
+- Use when a system is suffering from conditional complexity, and additional
+	changes of the same nature are anticipated
+- When system has comingled the concerns of choosing which actions are applicable
+	and executing these actions
+- When system needs to suppor user-created logic for determining when and how
+	to apply actions.

@@ -1,0 +1,22 @@
+﻿- Use when need to be able to track the state of an object or your application
+	and restore previous states as needed
+- Want to abstract and reuse the Undo/Redo functionality
+- Don't break encapsulation
+- Caretaker requests a Memento from the originator
+- The caretaker stores one or more mementos until they are needed
+- If or when required, the caretaker passes a memento back to the originator
+- Mementos should be Value Objects, holding state but no behavior
+- Only the originator that created a memento should assign or retrieve its state
+- The memento pattern shields other objects from potentially complex internal state
+	of the originator
+- As opposed to the Originator maintaining versions of its internal state, the
+	memento pattern keeps originator simpler.
+- Creating and restoring state may be expensive. Memento may not be appropriate
+	when state contains a large amount of information
+- It may be difficult to ensure only the originator can access a memento's state
+- Caretaker is responsible for managing mementos, but hasn't idea how big or small
+	they may be
+
+Related Patterns:
+- Command
+- Iterator

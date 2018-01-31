@@ -1,0 +1,5 @@
+﻿- Change behavior of the object with each state
+- Encapsulate the logic of each state into a single object
+- Allow for dynamic state discovery
+- Make unit testing easier
+- Indicator to use the State Pattern is the proliferous use of a switch

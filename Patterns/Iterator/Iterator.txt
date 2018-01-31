@@ -1,0 +1,12 @@
+﻿- The iterator pattern defines interfaces for the aggregate(IEnumerable) and 
+	the iterator(IEnumerator), each of which must be implemented for each 
+	collection that is to support the pattern.
+- Use when need to traverse a collection
+- Want to abstract the collection iteration logic
+- Don't whish to break encapsulation and expose collections globally
+- By separating iteration form the aggregate itself, more than one traversal
+	operation can occur at the same time.
+
+Related Patterns:
+- Factory
+- Composite

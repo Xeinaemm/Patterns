@@ -1,0 +1,5 @@
+﻿- Use when one object is dependent on another object
+- When changing one object requires a change to many others
+- When changes to an object should allow notification to others without any
+	knowledge of them
+- Allows multiple observers to react to changes to a single subject

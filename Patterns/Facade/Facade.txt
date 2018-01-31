@@ -1,0 +1,13 @@
+﻿- Provide a simple, purpose-built interface to a larger, more complex body of code
+	or interfaces
+- Make a complex body of code simpler to consume and use
+- Expose a set of complex object interactions with a single interface
+- Wrap a poorly designed API in a better designed one
+- Need to be updated to expose more functionality from the sub-system
+- The full capability of the underlying APIs will often not be available through
+	the facade
+
+Related Patterns:
+- Adapter
+- Flyweight
+- Mediator

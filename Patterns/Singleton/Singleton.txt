@@ -1,0 +1,13 @@
+﻿- Ensure a class has onlu one instance
+- Make the class itself responsible for keeping track of its sole instance
+- Use when class shouldn't require parameters as part of its construction
+- When creating the instance is expensive, a Singleton can improve performance
+- Singletons are notoriously difficult to test
+- Singletons introduce tight coupling among collaborating classes
+- Using an IoC Container it is straightforward to avoid the coupling and testability
+	issues.
+
+Related Patterns:
+- Abstract Factory
+- Factory Method
+- Builder

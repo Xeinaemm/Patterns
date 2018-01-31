@@ -1,0 +1,4 @@
+﻿- Track changes in persistent objects
+- Keep bussiness logic free of data access code
+- Keep bussiness logic free from tracking changes
+- Allow business logic to work with logical transactions

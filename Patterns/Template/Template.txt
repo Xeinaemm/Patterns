@@ -1,0 +1,18 @@
+﻿- Encapsulate and enforce the workflow or process that isn't variable
+- Allow subclasses to alter specific behavior via concrete implementation
+- Redefine one or more steps for an algorithm without altering its structure
+- Use when two or more classes should follow the same common algorithm or workflow
+- The workflow is invariant. Subclasses may redefine certain steps, but may not
+	change the algorithm's structure
+- Relies on inheritance, rather than composition, which can be a limitation
+- Single inheritance makes it difficult to merge two child algorithms into one
+
+Hooks:
+- Methods declared in the abstract class that have no implementation
+- Allow sub-classes to hook into the behavior of the algorithm at various points
+	or to ignore the hooks entirely
+
+Related Patterns:
+- Strategy
+- Decorator
+- Factory Method

@@ -1,0 +1,12 @@
+﻿- Represent an action as an object
+- Decouple clients that execute the command from the details and dependencies of
+	the command logic
+- Enables delayed execution
+- Known as Action or Transaction
+- Can be used in logging, validating and undo.
+- Must be completely self contained, client doesn't pass in any args
+
+Related Patterns:
+- Factory
+- Null Object
+- Composite

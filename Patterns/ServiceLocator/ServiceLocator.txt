@@ -1,0 +1,14 @@
+﻿- Abstract the application from the services it uses
+- Play the middleman
+- Change the service without recompilation
+- Indetify the service through configuration
+- Any client can access
+- Service may not be loaded
+- Caller must know how to handle failure
+- Doesn't handle inherently the object lifecycle
+
+Related Patterns:
+- Observer
+- Proxy
+- Adapter
+- Dependency Injection

@@ -1,0 +1,15 @@
+﻿- Receiver is aware of only one handler
+- Each handler is only aware of the next handler
+- Handlers process the message or send it ot the next handler
+- The Receiver doesn't know who handled the message
+- The first handler to process the message terminates the chain
+- The order of the handler list matters
+
+Use when:
+- More than one message handler for a message
+- The appropriate handler isn't explicitly known by the sender
+- The set of handlers can be dybamically defined
+
+Related Patterns:
+- Composite
+- Tree of Responsibility

@@ -1,0 +1,33 @@
+﻿- Use when fetching an object requires an extra call for the data, and the data
+	you're fetching isn't used when the main object is used.
+- Avoid using it unless or until you need it.
+- Need to balance amount of data being fetched with number of data requests being made
+
+Lazy Initialization:
+- Every property checks to see if its backing field has been initialized
+- Requires all access to the value to go through the property
+- Requires knowledge of whether the filed has been calculated
+
+Virtual Proxy:
+- Proxy looks just like the real object
+- Can introduce identity problems
+- May need to create many virtual proxies
+
+Value Holder:
+- Provides lazy load functionality without encapsulation
+- Calling code knows it's working with a Value Holder type
+- ValueHolder uses IValueLoader via strategy pattern to load value when accessed
+- ValueHolder and IValueLoader are reusable.
+
+Ghosts:
+- A ghost is a real objects in a partial state
+- Initially, the ghost only contains its id
+- Whenever any property is accessed, the ghost class loads all of its state from
+	the persistance
+- Essentially, the object is its own virtual proxy(violates SRP)
+- Avoids identity concerns of virtual proxy technique
+
+Related Patterns:
+- Proxy
+- Strategy
+- Template Method

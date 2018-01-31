@@ -1,0 +1,2 @@
+﻿- Allow adding new methods to a family of classes, without modifying the classes.
+- Represent an operation to be performed on elements of an object structure.
